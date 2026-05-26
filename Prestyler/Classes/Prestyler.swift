@@ -6,6 +6,9 @@
 //
 
 import Foundation
+#if canImport(UIKit)
+import UIKit
+#endif
 
 /// Prestyler provides static methods to manage rules.
 public final class Prestyler {

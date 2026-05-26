@@ -5,6 +5,10 @@
 //  Created by Ilya Krupko on 28/02/2019.
 //
 
+#if canImport(UIKit)
+import UIKit
+#endif
+
 struct TextRule {
     let styles: [Any]
     var positions: [Int]

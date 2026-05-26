@@ -5,6 +5,10 @@
 //  Created by Ilya Krupko on 25.10.2021.
 //
 
+#if canImport(UIKit)
+import UIKit
+#endif
+
 extension UIColor {
     func mixin(infusion: UIColor, alpha: CGFloat) -> UIColor {
         let alpha2 = min(1.0, max(0, alpha))

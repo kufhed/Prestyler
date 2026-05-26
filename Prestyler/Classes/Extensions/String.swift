@@ -6,6 +6,9 @@
 //
 
 import Foundation
+#if canImport(UIKit)
+import UIKit
+#endif
 /// Prestyler uses a public extension to provide access for string formating
 
 public extension String {

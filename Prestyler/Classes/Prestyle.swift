@@ -6,6 +6,9 @@
 //
 
 import Foundation
+#if canImport(UIKit)
+import UIKit
+#endif
 
 /// This enumeration can be used to describe Rule styles.
 public enum Prestyle {

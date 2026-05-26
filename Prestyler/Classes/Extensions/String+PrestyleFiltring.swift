@@ -6,6 +6,9 @@
 //
 
 import Foundation
+#if canImport(UIKit)
+import UIKit
+#endif
 
 /// PrefilterType specifies an entries type in prefilter
 public enum PrefilterType {

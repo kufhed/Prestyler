@@ -6,7 +6,9 @@
 //
 
 import Foundation
-
+#if canImport(UIKit)
+import UIKit
+#endif
 
 struct Constants {
     static let errorColor = UIColor.gray
